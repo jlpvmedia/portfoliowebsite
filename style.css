@@ -1,3 +1,8 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
 /* Tags */
 body {
     margin: 0 0;
@@ -82,6 +87,15 @@ header {
     font-weight: 600;
 }
 
+@media only screen and (max-width: 992px) {
+    .nav-logo {
+        display: none;
+    }
+    header {
+        justify-content: center;
+    }
+}
+
 /* Hero */
 #hero {
     min-height: 25rem;
@@ -118,6 +132,16 @@ header {
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 992px) {
+    #about-grid {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 2rem;
+    }
+}
+
 /*My Work */
 #work {
     background-color: lightskyblue;
@@ -145,12 +169,19 @@ header {
     border-radius: 2rem;
 }
 
-#work-image {
+.work-image {
     width: 100%;
     height: 10rem;
     border-radius: 1rem;
     object-fit: cover;
 }
+
+@media only screen and (max-width: 992px) {
+    #work-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
 
 /*Contact */
 #contact-wrapper {
