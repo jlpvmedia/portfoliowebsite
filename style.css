@@ -149,6 +149,7 @@ header {
 
 #work-wrapper {
     display: flex;
+    flex-wrap: nowrap;
     flex-direction: column;
     gap: 4rem;
     text-align: center;
