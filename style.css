@@ -1,0 +1,199 @@
+/* Tags */
+body {
+    margin: 0 0;
+}
+
+h1 {
+    font-size: 4rem;
+    margin: 0;
+}
+
+h2 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+h3 {
+    font-size: 2rem;
+    margin: 0;
+}
+
+button {
+    padding: 0.5rem 2rem;
+    background-color: white;
+    color: black;
+    font-size: 1.25rem;
+    font-weight: 500;
+    border: 0;
+    border-radius: 1rem;
+}
+
+button:hover {
+    background-color: lightgray;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+/*General*/
+section {
+    padding: 4rem 2rem;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+}
+
+.bold {
+    font-weight: 700;
+}
+
+/* Navbar */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    padding: 0 2rem 0;
+    background-color: black;
+    color: white;
+}
+
+.nav-logo {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link-wrapper {
+    display: flex;
+    gap: 1rem
+}
+
+.nav-link {
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+}
+
+.nav-link:hover {
+    font-weight: 600;
+}
+
+/* Hero */
+#hero {
+    min-height: 25rem;
+    background-color: lightskyblue;
+}
+
+#hero-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+    gap: 4rem;
+}
+
+/* About */
+#about {
+    padding-top: 10rem;
+    padding-bottom: 10rem;
+}
+
+#about-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+#about-wrapper {
+    max-width: 70%;
+}
+
+#about-image {
+    border-radius: 50%;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+/*My Work */
+#work {
+    background-color: lightskyblue;
+}
+
+#work-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+    text-align: center;
+}
+
+#work-grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#work-card {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+}
+
+#work-image {
+    width: 100%;
+    height: 10rem;
+    border-radius: 1rem;
+    object-fit: cover;
+}
+
+/*Contact */
+#contact-wrapper {
+    background-color: lightskyblue;
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem 4rem;
+}
+
+
+/*Footer */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem 0;
+    background-color: black;
+    color: white;
+}
+
+footer .nav-link {
+    font-size: 1rem;
+}
+
+/* Contact page */
+/* Form */
+#contact form {
+    padding: 2rem;
+    border: 2px solid black;
+    border-radius: 3rem;
+    width: 50%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.dark-button {
+    color: white;
+    background-color: black;
+}
+
+.dark-button:hover {
+    background-color: darkgray;
+}
